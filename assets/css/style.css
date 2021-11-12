@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+:root {
+    --grisoscuro: rgb(59, 60, 73);
+    --azulclaro: lightskyblue;
+}
+
+header {
+    background-color: var(--grisoscuro);
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    background-color: var(--azulclaro);
+    color: var(--grisoscuro);
+    text-align: right;
+    flex-basis: 30%;
+    font-size: 40px;
+    padding: 0.2em;
+}
+
+#main-links {
+    flex-basis: 40%;
+    text-align: right;
+    margin: 0% 5%;
+}
+
+#main-links li {
+    color: var(--azulclaro);
+    display: inline-block;
+    font-size: 23px;
+    margin: 0em 0.5em;
+    padding: 0em 0.5em;
+    border-bottom: solid 5px var(--azulclaro)
+}
+
+.section-links:visited, .section-links:focus, .section-links:link {
+    color: var(--azulclaro);
+    text-decoration: none;
+}
+
+#ribbon {
+    width: 100vw;
+    height: 30vh;
+    background-image:url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/web-development-agency.jpeg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#ribbon h2 {
+    background-color: var(--azulclaro);
+    color: var(--grisoscuro);
+    text-align: center;
+    flex-basis: 17%;
+    font-size: 30px;
+    margin: 1% 5%;
+    padding: 0.2em;
+}
+
+/* #about-me {
+    background-color: white;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2%;
+    padding: 2em 0em;
+}
+
+#about-me h1 {
+    background-color: white;
+    color: var(--grisoscuro);
+    flex: 0 0 10%;
+    text-align: right;
+    font-size: 40px;
+    border-right: solid 4px var(--grisoscuro);
+    align-self: stretch;
+    padding: 0% 1% 0% 0%;
+    margin: 0% 0% 0% 13%;
+}
+
+#about-me div {
+    background-color: white;
+    color: var(--grisoscuro);
+    flex: 0 0 63%;
+    text-align: justify;
+    line-height: 1.5;
+} */
+
+#about-me {
+    background-color: white;
+    width: 100vw;
+    height: 35vh;
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#about-me h1 {
+    background-color: white;
+    color: var(--grisoscuro);
+    flex: 0 0 80%;
+    width: 28%;
+    border-right: solid 4px var(--grisoscuro);
+    text-align: right;
+    font-size: 40px;
+    padding: 0.5%;
+}
+
+#about-me p {
+    background-color: white;
+    color: var(--grisoscuro);
+    flex: 0 0 40%;
+    width: 60%;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 0.25% 0.5%;
+    margin: 0% 5% 0% 0%;
+}
+
+#work {
+    
+}
+
+img {
+    width: 50%;
+}
