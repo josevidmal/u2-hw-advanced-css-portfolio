@@ -50,7 +50,7 @@ header h1 {
 #ribbon {
     width: 100vw;
     height: 30vh;
-    background-image:url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/web-development-agency.jpeg");
+    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/web-development-agency.jpeg");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -64,7 +64,7 @@ header h1 {
     text-align: center;
     flex-basis: 17%;
     font-size: 30px;
-    margin: 1% 5%;
+    margin: 1.5% 5%;
     padding: 0.2em;
 }
 
@@ -134,9 +134,137 @@ header h1 {
 }
 
 #work {
-    
+    background-color: white;
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
 }
 
-img {
-    width: 50%;
+#work h1 {
+    background-color: white;
+    color: var(--grisoscuro);
+    flex: 0 0 95%;
+    width: 28%;
+    border-right: solid 4px var(--grisoscuro);
+    text-align: right;
+    font-size: 40px;
+    padding: 0.5%;
+}
+
+#apps {
+    background-color: white;
+    flex: 0 0 95%;
+    width: 60%;
+    padding: 0.25% 0.5%;
+    margin: 0% 5% 0% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#css-cheat-sheet {
+    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/css-snippet-cheat-sheet.png");
+    background-position: unset;
+    background-size: 150%;
+    flex: 0 0 99%;
+    height: 50%;
+    border: solid 4px var(--azulclaro);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#principal-app {
+    background-color: var(--azulclaro);
+    color: var(--grisoscuro);
+    width: 16.5%;
+    padding: 0.5%;
+    margin: 0% 0% 3% 0%;
+}
+
+#html5 {
+    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/html-background.jpeg");
+    background-position: cover;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--azulclaro);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#css3 {
+    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/css-background1.jpeg");
+    background-position: center;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--azulclaro);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#version-control-system {
+    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/git-background.jpeg");
+    background-position: cover;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--azulclaro);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+#landing-page {
+    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/landing-page.png");
+    background-position: cover;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--azulclaro);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.other-apps {
+    background-color: var(--azulclaro);
+    color: var(--grisoscuro);
+    width: 36%;
+    padding: 1%;
+    margin: 0% 0% 6%;
+}
+
+/* #principal-app {
+    background-color: var(--azulclaro);
+    color: var(--grisoscuro);
+    width: 16.5%;
+    position: relative;
+    top: 83%;
+    padding: 0.5%;
+}
+
+.other-apps {
+    background-color: var(--azulclaro);
+    color: var(--grisoscuro);
+    width: 34%;
+    position: relative;
+    top: 61%;
+    padding: 1%;
+} */ 
+
+#principal-app h3, .other-apps h3 {
+    font-size: 25px;    
+}
+
+#principal-app h5, .other-apps h5 {
+    font-size: 15px;
 }
