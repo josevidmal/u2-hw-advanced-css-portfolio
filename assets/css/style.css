@@ -302,3 +302,175 @@ header h1 {
     color: var(--grisoscuro);
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+
+    header {
+        height: 35vh;
+        flex-wrap: wrap;
+    }
+    
+    header h1 {
+        flex-basis: 100%;
+        Text-align: center;
+    }
+    
+    #main-links {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    #ribbon {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #ribbon h2 {
+        flex-basis: 100%;
+        margin: 0%;
+    }
+
+    #about-me {
+        height: 85vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    #about-me h1 {
+        flex: 0 0 10%;
+        width: 100%;
+        text-align: center;
+        border-right: none;
+        border-bottom: solid 4px var(--grisoscuro);
+    }
+
+    br {
+        display: none;
+    }
+
+    #about-me p {
+        flex: 0 0 35%;
+        width: 100%;
+        line-height: 1.5;
+    }
+
+    #work {
+        height: 110vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    #work h1 {
+        flex: 0 0 5%;
+        width: 100%;
+        border-right: none;
+        border-bottom: solid 4px var(--grisoscuro);
+        text-align: center;
+    }
+    
+    #apps {
+        flex: 0 0 40%;
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #css-cheat-sheet {
+        flex: 0 0 99%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        order: 1;
+    }
+    
+    #html5 {
+        flex: 0 0 99%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        order: 3;
+    }
+    
+    #css3 {
+        flex: 0 0 99%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        order: 5;
+    }
+    
+    #version-control-system {
+        flex: 0 0 99%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        order: 4;
+    }
+    
+    #landing-page {
+        flex: 0 0 99%;
+        height: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        order: 2;
+    }
+    
+    #principal-app {
+        width: 50%;
+        margin: 0%;
+    }
+    
+    .other-apps {
+        width: 50%;
+        margin: 0%;
+    }
+    
+    #contact-me {
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    #contact-me h1 {
+        flex: 0 0 10%;
+        width: 100%;
+        border-right: none;
+        border-bottom: solid 4px var(--grisoscuro);
+        text-align: center;
+    }
+    
+    #footer-links {
+        height: 35%;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+
+}
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (min-width: 1500px) {
+
+}
