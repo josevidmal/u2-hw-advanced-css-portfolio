@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -14,6 +15,7 @@ header {
     width: 100vw;
     height: 15vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,13 +24,13 @@ header h1 {
     background-color: var(--azulclaro);
     color: var(--grisoscuro);
     text-align: right;
-    flex-basis: 30%;
+    flex: 0 0 30%;
     font-size: 40px;
     padding: 0.2em;
 }
 
 #main-links {
-    flex-basis: 40%;
+    flex: 0 0 40%;
     text-align: right;
     margin: 0% 5%;
 }
@@ -62,7 +64,7 @@ header h1 {
     background-color: var(--azulclaro);
     color: var(--grisoscuro);
     text-align: center;
-    flex-basis: 17%;
+    flex: 0 0 17%;
     font-size: 30px;
     margin: 1.5% 5%;
     padding: 0.2em;
@@ -71,18 +73,18 @@ header h1 {
 #about-me {
     background-color: white;
     width: 100vw;
-    height: 35vh;
+    height: 30vh;
     display: flex; 
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3% 0%;
 }
 
 #about-me h1 {
     background-color: white;
     color: var(--grisoscuro);
-    flex: 0 0 80%;
+    flex: 0 0 30%;
     width: 28%;
     border-right: solid 4px var(--grisoscuro);
     text-align: right;
@@ -93,7 +95,7 @@ header h1 {
 #about-me p {
     background-color: white;
     color: var(--grisoscuro);
-    flex: 0 0 35%;
+    flex: 0 0 64%;
     width: 60%;
     text-align: justify;
     font-size: 18px;
@@ -107,16 +109,16 @@ header h1 {
     width: 100vw;
     height: 120vh;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3% 0%;
 }
 
 #work h1 {
     background-color: white;
     color: var(--grisoscuro);
-    flex: 0 0 95%;
+    flex: 0 0 30%;
     width: 28%;
     border-right: solid 4px var(--grisoscuro);
     text-align: right;
@@ -126,7 +128,7 @@ header h1 {
 
 #apps {
     background-color: white;
-    flex: 0 0 95%;
+    flex: 0 0 64%;
     width: 60%;
     padding: 0.25% 0.5%;
     margin: 0% 5% 0% 0%;
@@ -140,7 +142,7 @@ header h1 {
     background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/css-snippet-cheat-sheet.png");
     background-position: cover;
     background-size: 50%;
-    flex: 0 0 99%;
+    flex: 0 0 100%;
     height: 50%;
     border: solid 4px var(--azulclaro);
     display: flex;
@@ -262,18 +264,18 @@ header h1 {
     background-color: white;
     color: var(--grisoscuro);
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 3% 0%;
 }
 
 #contact-me h1 {
     background-color: white;
     color: var(--grisoscuro);
-    flex: 0 0 70%;
+    flex: 0 0 30%;
     width: 27%;
     border-right: solid 4px var(--grisoscuro);
     text-align: right;
@@ -283,10 +285,11 @@ header h1 {
 
 #footer-links {
     background-color: white;
-    height: 35%;
-    width: 60%;
+    flex: 0 0 65%;
+    width: 65%;
     margin: 0% 5% 0% 0%;
     text-align: center;
+    align-self: center;
 }
 
 #footer-links li {
@@ -303,174 +306,260 @@ header h1 {
     text-decoration: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
 
-    header {
-        height: 35vh;
-        flex-wrap: wrap;
+    header #main-links {
+        flex: 0 0 60%
     }
     
-    header h1 {
-        flex-basis: 100%;
-        Text-align: center;
-    }
-    
-    #main-links {
-        flex-basis: 100%;
-        text-align: center;
-    }
-
     #ribbon {
-        height: 20vh;
-        display: flex;
-        justify-content: center;
+        height: 15vh;
     }
     
     #ribbon h2 {
-        flex-basis: 100%;
-        margin: 0%;
+        flex-basis: 30%;
     }
 
     #about-me {
-        height: 85vh;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
+        height: 48vh;
+    }
+
+    #work {
+        height: 60vh;
+    }
+
+    #html5, #css3, #version-control-system, #landing-page {
+        flex: 0 0 47%;
+    }
+
+    #principal-app {
+        width: 31%;
     }
     
-    #about-me h1 {
-        flex: 0 0 10%;
+    .other-apps {
+        width: 66%;
+    }
+
+    #footer-links {
+        flex: 0 0 65%;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    header #main-links {
+        flex: 0 0 50%
+    }
+    
+    #ribbon {
+        height: 20vh;
+    }
+    
+    #ribbon h2 {
+        flex-basis: 30%;
+    }
+
+    #about-me {
+        height: 40vh;
+    }
+
+    #work {
+        height: 60vh;
+    }
+
+    #html5, #css3, #version-control-system, #landing-page {
+        flex: 0 0 47%;
+    }
+
+    #principal-app {
+        width: 31%;
+    }
+    
+    .other-apps {
+        width: 66%;
+    }
+
+    #footer-links {
+        flex: 0 0 65%;
+    }
+
+}
+
+@media screen and (max-width: 540px){
+
+    header, #ribbon, #about-me, #work, #apps, #contact-me, .flex-items {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    header {
+        height: 18vh;
+    }
+
+    header h1, header #main-links {
         width: 100%;
+        text-align: center;
+        padding: 0%;
+        margin: 0%;
+        flex: 0 0 0%;
+    }
+
+    #ribbon {
+        height: 25vh;
+        margin-bottom: 5%;
+    }
+
+    #ribbon h2 {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        flex: 0 0 0%;
+    }
+
+    #about-me {
+        height: 54vh;
+        margin-bottom: 5%;
+    }
+
+    #about-me h1, #work h1, #contact-me h1 {
+        width: 100%;
+        flex: 0 0 0%;
         text-align: center;
         border-right: none;
         border-bottom: solid 4px var(--grisoscuro);
+        padding: 0%;
+        margin-bottom: 2%;
     }
 
-    br {
+    #about-me h1 br, #contact-me h1 br {
         display: none;
     }
 
     #about-me p {
-        flex: 0 0 35%;
-        width: 100%;
-        line-height: 1.5;
+        flex: 0 0 0%;
+        width: 95%;
+        margin:0%;
+        padding: 2.5%;
     }
 
     #work {
-        height: 110vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
+        height: 120vh;
+        margin-bottom: 5%;
     }
-    
-    #work h1 {
-        flex: 0 0 5%;
-        width: 100%;
-        border-right: none;
-        border-bottom: solid 4px var(--grisoscuro);
-        text-align: center;
-    }
-    
+
     #apps {
-        flex: 0 0 40%;
-        width: 98%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+        width: 100%;
+        flex: 0 0 0%;
+        margin-right: 0%;
+        padding: 0%;
+        gap: 4%;
     }
-    
-    #css-cheat-sheet {
-        flex: 0 0 99%;
-        height: 40%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        order: 1;
+
+    #css-cheat-sheet, #html5, #css3, #version-control-system, #landing-page {
+        width: 90%;
+        flex: 0 0 50%;
+        justify-content: flex-end;
     }
-    
-    #html5 {
-        flex: 0 0 99%;
-        height: 40%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        order: 3;
-    }
-    
-    #css3 {
-        flex: 0 0 99%;
-        height: 40%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        order: 5;
-    }
-    
-    #version-control-system {
-        flex: 0 0 99%;
-        height: 40%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        order: 4;
-    }
-    
-    #landing-page {
-        flex: 0 0 99%;
-        height: 40%;
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-end;
-        order: 2;
-    }
-    
+
     #principal-app {
-        width: 50%;
+        width: 100%;
         margin: 0%;
     }
-    
+
     .other-apps {
-        width: 50%;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #contact-me {
+        height: 40vh;
+    }
+
+    #footer-links {
+        width: 100%;
+        flex: 0 0 0%;
         margin: 0%;
     }
     
+    #footer-links li {
+        display: block;
+        border: none;
+    }
+
+}
+
+@media screen and (max-width: 414px){
+
+    header {
+        height: 23vh;
+    }
+
+    #ribbon {
+        height: 25vh;
+    }
+
+    #about-me {
+        height: 66vh;
+    }
+
+    #work {
+        height: 118vh;
+    }
+
     #contact-me {
-        width: 100vw;
-        height: 15vh;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
+        height: 40vh;
     }
-    
-    #contact-me h1 {
-        flex: 0 0 10%;
-        width: 100%;
-        border-right: none;
-        border-bottom: solid 4px var(--grisoscuro);
-        text-align: center;
-    }
-    
-    #footer-links {
-        height: 35%;
-        width: 100%;
-    }
-    
-}
-
-@media screen and (min-width: 768px){
 
 }
 
-@media screen and (min-width: 992px){
+@media screen and (max-width: 375px){
+
+    header {
+        height: 25vh;
+    }
+
+    #ribbon {
+        height: 25vh;
+    }
+
+    #about-me {
+        height: 82vh;
+    }
+
+    #work {
+        height: 125vh;
+    }
+
+    #contact-me {
+        height: 45vh;
+    }
 
 }
 
-@media screen and (min-width: 1500px) {
+@media screen and (max-width: 320px){
+
+    header {
+        height: 30vh;
+    }
+
+    #ribbon {
+        height: 25vh;
+    }
+
+    #about-me {
+        height: 105vh;
+    }
+
+    #work {
+        height: 148vh;
+    }
+
+    #contact-me {
+        height: 50vh;
+    }
 
 }
