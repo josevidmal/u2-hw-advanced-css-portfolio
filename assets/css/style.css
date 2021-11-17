@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: impact, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', tahoma, 'arial narrow', sans-serif;
 }
 
 :root {
@@ -64,7 +64,7 @@ header h1 {
     background-color: var(--azulclaro);
     color: var(--grisoscuro);
     text-align: center;
-    flex: 0 0 17%;
+    flex: 0 0 22%;
     font-size: 30px;
     margin: 1.5% 5%;
     padding: 0.2em;
@@ -211,7 +211,7 @@ header h1 {
 #principal-app {
     background-color: var(--azulclaro);
     color: var(--grisoscuro);
-    width: 17%;
+    width: 20%;
     padding: 0.5%;
     margin: 0% 0% 3% 0%;
     z-index: 100;
@@ -220,7 +220,7 @@ header h1 {
 .other-apps {
     background-color: var(--azulclaro);
     color: var(--grisoscuro);
-    width: 36%;
+    width: 42%;
     padding: 1%;
     margin: 0% 0% 6%;
     z-index: 100;
@@ -357,7 +357,7 @@ header h1 {
     }
     
     #ribbon h2 {
-        flex-basis: 30%;
+        flex-basis: 40%;
     }
 
     #about-me {
@@ -386,7 +386,7 @@ header h1 {
 
 }
 
-@media screen and (max-width: 540px){
+@media screen and (max-width: 650px){
 
     header, #ribbon, #about-me, #work, #apps, #contact-me, .flex-items {
         flex-direction: column;
@@ -507,7 +507,7 @@ header h1 {
     }
 
     #work {
-        height: 118vh;
+        height: 123vh;
     }
 
     #contact-me {
@@ -531,7 +531,7 @@ header h1 {
     }
 
     #work {
-        height: 125vh;
+        height: 132vh;
     }
 
     #contact-me {
