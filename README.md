@@ -7,4 +7,12 @@ One important aspect of this assignment was to build the website with Responsive
 
 The final website looks like this image:
 
-![JVMA (Jose Vidal Maza Alonso) Portfolio Website]()
+![Portfolio Website Header and About Me sections](https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/advanced-css-portfolio1.png?raw=true)
+
+![Portfolio Website Work section](https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/advanced-css-portfolio2.png?raw=true)
+
+![Portfolio Website Contact section](https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/advanced-css-portfolio3.png?raw=true)
+
+The link for the deployed application is this:
+
+https://josevidmal.github.io/u2-hw-advanced-css-portfolio/
