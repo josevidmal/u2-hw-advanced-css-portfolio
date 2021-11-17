@@ -52,7 +52,7 @@ header h1 {
 #ribbon {
     width: 100vw;
     height: 30vh;
-    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/web-development-agency.jpeg");
+    background-image: url("https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/web-development-agency.jpeg?raw=true");
     background-position: center;
     background-size: cover;
     display: flex;
@@ -139,7 +139,7 @@ header h1 {
 }
 
 #css-cheat-sheet {
-    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/css-snippet-cheat-sheet.png");
+    background-image: url("https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/css-snippet-cheat-sheet.png?raw=true");
     background-position: cover;
     background-size: 50%;
     flex: 0 0 100%;
@@ -153,7 +153,7 @@ header h1 {
 }
 
 #html5 {
-    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/html-background.jpeg");
+    background-image: url("https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/html-background.jpeg?raw=true");
     background-position: cover;
     background-size: cover;
     flex: 0 0 48%;
@@ -167,7 +167,7 @@ header h1 {
 }
 
 #css3 {
-    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/css-background1.jpeg");
+    background-image: url("https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/css-background1.jpeg?raw=true");
     background-position: center;
     background-size: cover;
     flex: 0 0 48%;
@@ -181,7 +181,7 @@ header h1 {
 }
 
 #version-control-system {
-    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/git-background.jpeg");
+    background-image: url("https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/git-background.jpeg?raw=true");
     background-position: cover;
     background-size: cover;
     flex: 0 0 48%;
@@ -195,7 +195,7 @@ header h1 {
 }
 
 #landing-page {
-    background-image: url("/Users/josevidmal/Documents/ITESM-Coding-Bootcamp/sessions/week-2/u2-hw-advanced-css-portfolio/assets/images/landing-page.png");
+    background-image: url("https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/landing-page.png?raw=true");
     background-position: right;
     background-size: 80%;
     flex: 0 0 48%;
