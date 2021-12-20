@@ -13,7 +13,7 @@
 header {
     background-color: var(--grisoscuro);
     width: 100vw;
-    height: 15vh;
+    height: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -51,7 +51,7 @@ header h1 {
 
 #ribbon {
     width: 100vw;
-    height: 30vh;
+    height: 240px;
     background-image: url("https://github.com/josevidmal/u2-hw-advanced-css-portfolio/blob/main/assets/images/web-development-agency.jpeg?raw=true");
     background-position: center;
     background-size: cover;
@@ -73,7 +73,7 @@ header h1 {
 #about-me {
     background-color: white;
     width: 100vw;
-    height: 30vh;
+    height: 240px;
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
@@ -107,7 +107,7 @@ header h1 {
 #work {
     background-color: white;
     width: 100vw;
-    height: 120vh;
+    height: 960px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -264,7 +264,7 @@ header h1 {
     background-color: white;
     color: var(--grisoscuro);
     width: 100vw;
-    height: 15vh;
+    height: 120px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -313,7 +313,7 @@ header h1 {
     }
     
     #ribbon {
-        height: 15vh;
+        height: 120px;
     }
     
     #ribbon h2 {
@@ -321,11 +321,11 @@ header h1 {
     }
 
     #about-me {
-        height: 48vh;
+        height: 384px;
     }
 
     #work {
-        height: 60vh;
+        height: 480px;
     }
 
     #html5, #css3, #version-control-system, #landing-page {
@@ -353,7 +353,7 @@ header h1 {
     }
     
     #ribbon {
-        height: 20vh;
+        height: 160px;
     }
     
     #ribbon h2 {
@@ -361,11 +361,11 @@ header h1 {
     }
 
     #about-me {
-        height: 40vh;
+        height: 350px;
     }
 
     #work {
-        height: 60vh;
+        height: 480px;
     }
 
     #html5, #css3, #version-control-system, #landing-page {
@@ -396,7 +396,7 @@ header h1 {
     }
 
     header {
-        height: 18vh;
+        height: 165px;
     }
 
     header h1, header #main-links {
@@ -408,7 +408,7 @@ header h1 {
     }
 
     #ribbon {
-        height: 25vh;
+        height: 200px;
         margin-bottom: 5%;
     }
 
@@ -420,7 +420,7 @@ header h1 {
     }
 
     #about-me {
-        height: 54vh;
+        height: 475px;
         margin-bottom: 5%;
     }
 
@@ -446,7 +446,7 @@ header h1 {
     }
 
     #work {
-        height: 120vh;
+        height: 960px;
         margin-bottom: 5%;
     }
 
@@ -476,7 +476,7 @@ header h1 {
     }
 
     #contact-me {
-        height: 40vh;
+        height: 320px;
     }
 
     #footer-links {
@@ -495,23 +495,23 @@ header h1 {
 @media screen and (max-width: 414px){
 
     header {
-        height: 23vh;
+        height: 184px;
     }
 
     #ribbon {
-        height: 25vh;
+        height: 200px;
     }
 
     #about-me {
-        height: 66vh;
+        height: 528px;
     }
 
     #work {
-        height: 123vh;
+        height: 984px;
     }
 
     #contact-me {
-        height: 40vh;
+        height: 320px;
     }
 
 }
@@ -519,23 +519,23 @@ header h1 {
 @media screen and (max-width: 375px){
 
     header {
-        height: 25vh;
+        height: 200px;
     }
 
     #ribbon {
-        height: 25vh;
+        height: 200px;
     }
 
     #about-me {
-        height: 82vh;
+        height: 656px;
     }
 
     #work {
-        height: 132vh;
+        height: 1056px;
     }
 
     #contact-me {
-        height: 45vh;
+        height: 360px;
     }
 
 }
@@ -543,23 +543,23 @@ header h1 {
 @media screen and (max-width: 320px){
 
     header {
-        height: 30vh;
+        height: 240px;
     }
 
     #ribbon {
-        height: 25vh;
+        height: 200px;
     }
 
     #about-me {
-        height: 105vh;
+        height: 840px;
     }
 
     #work {
-        height: 148vh;
+        height: 1184px;
     }
 
     #contact-me {
-        height: 50vh;
+        height: 400px;
     }
 
 }
