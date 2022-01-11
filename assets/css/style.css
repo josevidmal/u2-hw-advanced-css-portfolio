@@ -337,7 +337,7 @@ header h1 {
 @media screen and (max-width: 992px){
 
     header #main-links {
-        flex: 0 0 50%
+        flex: 0 0 37%
     }
     
     #ribbon h2 {
