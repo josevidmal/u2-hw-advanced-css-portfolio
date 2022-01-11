@@ -166,8 +166,8 @@ header h1 {
     position: relative;
 }
 
-#css-cheat-sheet {
-    background-image: url("../images/css-snippet-cheat-sheet.png");
+#password-generator {
+    background-image: url("../images/03-javascript-homework-demo.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 48%;
@@ -328,7 +328,7 @@ header h1 {
         height: 480px;
     }
 
-    #safe-trip-planner, #css-cheat-sheet, #work-day-scheduler, #coding-quiz {
+    #safe-trip-planner, #password-generator, #work-day-scheduler, #coding-quiz {
         flex: 0 0 47%;
     }
 
@@ -368,7 +368,7 @@ header h1 {
         height: 480px;
     }
 
-    #safe-trip-planner, #css-cheat-sheet, #work-day-scheduler, #coding-quiz {
+    #safe-trip-planner, #password-generator, #work-day-scheduler, #coding-quiz {
         flex: 0 0 47%;
     }
 
@@ -458,7 +458,7 @@ header h1 {
         gap: 4%;
     }
 
-    #weather-dashboard, #safe-trip-planner, #css-cheat-sheet, #work-day-scheduler, #coding-quiz {
+    #weather-dashboard, #safe-trip-planner, #password-generator, #work-day-scheduler, #coding-quiz {
         width: 90%;
         flex: 0 0 50%;
         justify-content: flex-end;
