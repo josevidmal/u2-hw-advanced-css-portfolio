@@ -141,7 +141,7 @@ header h1 {
 #weather-dashboard {
     background-image: url("../images/weather-dashboard-displayed-info.png");
     background-position: unset;
-    background-size: 100%;
+    background-size: cover;
     flex: 0 0 100%;
     height: 50%;
     border: solid 4px var(--azulclaro);
@@ -197,7 +197,7 @@ header h1 {
 #coding-quiz {
     background-image: url("../images/coding-quiz-challenge.png");
     background-position: unset;
-    background-size: 100%;
+    background-size: cover;
     flex: 0 0 48%;
     height: 21%;
     border: solid 4px var(--azulclaro);
