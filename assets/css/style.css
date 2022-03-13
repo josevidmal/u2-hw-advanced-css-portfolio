@@ -138,8 +138,8 @@ header h1 {
     align-items: center;
 }
 
-#weather-dashboard {
-    background-image: url("../images/weather-dashboard-displayed-info.png");
+#tech-blog {
+    background-image: url("../images/mvc-tech-blog-1.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 100%;
@@ -166,8 +166,8 @@ header h1 {
     position: relative;
 }
 
-#password-generator {
-    background-image: url("../images/03-javascript-homework-demo.png");
+#note-taker {
+    background-image: url("../images/note-taker-2.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 48%;
@@ -180,8 +180,8 @@ header h1 {
     position: relative;
 }
 
-#work-day-scheduler {
-    background-image: url("../images/work-day-scheduler.png");
+#weather-dashboard {
+    background-image: url("../images/weather-dashboard-displayed-info.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 48%;
@@ -194,8 +194,8 @@ header h1 {
     position: relative;
 }
 
-#coding-quiz {
-    background-image: url("../images/coding-quiz-challenge.png");
+#motorcycle-club {
+    background-image: url("../images/motorcycle-club-1.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 48%;
@@ -431,7 +431,7 @@ header h1 {
         gap: 4%;
     }
 
-    #weather-dashboard, #safe-trip-planner, #password-generator, #work-day-scheduler, #coding-quiz {
+    #weather-dashboard, #safe-trip-planner, #note-taker, #motorcycle-club, #tech-blog {
         width: 90%;
         flex: 0 0 70%;
         justify-content: flex-end;
