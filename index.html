@@ -43,46 +43,146 @@
             <section id="work">
                 <h1>Work</h1>
                 <div id="apps">
-                    <a id="tech-blog" class="flex-items"
-                        href="https://my-mvc-tech-blog-app.herokuapp.com/"
-                        target="_blank">
+                    <div id="tech-blog" class="flex-items">
                         <figcaption id="principal-app">
                             <h3>My MVC Tech Blog</h3>
                             <h5>Sign in, post comments about tech<h5>
                         </figcaption>
-                    </a>
-                    <a id="safe-trip-planner" class="flex-items"
-                        href="https://josevidmal.github.io/u7-project1-team4/"
-                        target="_blank">
+                    </div>
+                    <div id="safe-trip-planner" class="flex-items">
                         <figcaption class="other-apps">
                             <h3>Trip Planner</h3>
                             <h5>Team project 1</h5>
                         </figcaption>
-                    </a>
-                    <a id="note-taker" class="flex-items"
-                        href="https://jv-notetaker-app.herokuapp.com/"
-                        target="_blank">
+                    </div>
+                    <div id="note-taker" class="flex-items">
                         <figcaption class="other-apps">
                             <h3>Note Taker</h3>
                             <h5>Write, save and delete notes</h5>
                         </figcaption>
-                    </a>
-                    <a id="weather-dashboard" class="flex-items"
-                        href="https://josevidmal.github.io/u6-hw-server-side-api-weather-dashboard/"
-                        target="_blank">
+                    </div>
+                    <div id="weather-dashboard" class="flex-items">
                         <figcaption class="other-apps">
                             <h3>Weather Dashboard</h3>
                             <h5>Check any city's weather</h5>
                         </figcaption>
-                    </a>
-                    <a id="motorcycle-club" class="flex-items"
-                        href="https://motorcycle-club.herokuapp.com/"
-                        target="_blank">
+                    </div>
+                    <div id="motorcycle-club" class="flex-items">
                         <figcaption class="other-apps">
                             <h3>Motorcyle Club</h3>
                             <h5>Team Project 2</h5>
                         </figcaption>
-                    </a>
+                    </div>
+                </div>
+            </section>
+            <section id="app1-modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>My MVC Tech Blog<span id="app1-close" class="close-btn">&times;</span></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            The application is a Tech Blog that allows users to login or sign up (if they don't have an 
+                            existing account), each user has a dedicated Dashboard where they can create Posts about 
+                            technology topics, update or delete them. Users are also able to write comments about other 
+                            users' posts, giving the application a social feeling.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <ul>
+                            <li><a class="deployed-app" href="https://my-mvc-tech-blog-app.herokuapp.com/">Deployed Application</a></li>
+                            <li><a class="github-repo" href="https://github.com/josevidmal/my-mvc-tech-blog-app">GitHub Repo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="app2-modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Motorcycle Club<span id="app2-close" class="close-btn">&times;</span></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            This is a Node.js application for a Motorcycle Clubs (MC) to allow better control of their 
+                            members. The app allows you to create new users, new trips, and gives you an overview of the 
+                            trip details, so the members know how much time and money they will spend going to the 
+                            suggested destination. It has 2 types of member, regular member and admin member. Only 
+                            administrator roles can create new trips, while both can have a display of their profile with 
+                            a summary of their information.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <ul>
+                            <li><a class="deployed-app" href="https://motorcycle-club.herokuapp.com/">Deployed Application</a></li>
+                            <li><a class="github-repo" href="https://github.com/josevidmal/team-project-2">GitHub Repo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="app3-modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Trip Planner<span id="app3-close" class="close-btn">&times;</span></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            This project is a website that allows the user to see quickly and in one glance the most essential 
+                            information about a country they are interested to travel to. The user will get the basic information 
+                            of a country, the exchange rate between the country's currency and USD and will also get information 
+                            about the current covid levels in their target country without having to search in different sites. 
+                            This will provide the user basic and important information to start planning a trip.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <ul>
+                            <li><a class="deployed-app" href="https://josevidmal.github.io/u7-project1-team4/">Deployed Application</a></li>
+                            <li><a class="github-repo" href="https://github.com/josevidmal/u7-project1-team4">GitHub Repo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="app4-modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Weather Dashboard<span id="app4-close" class="close-btn">&times;</span></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            In this application the user types the name of a city in the input field and clicks the Search button. 
+                            If the input does not match a valid city name, an alert window is shown, asking the user to choose a 
+                            valid name. Then, using the OpenWeather Server-Side APIs the application retrieves current weather and 
+                            5 day weather forecast information for the city entered by the user. After that, the application selects 
+                            specific information (city name, weather icon, temperature, wind speed, humidity and UVI) to display in 
+                            the current weather and forecast sections.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <ul>
+                            <li><a class="deployed-app" href="https://josevidmal.github.io/u6-hw-server-side-api-weather-dashboard/">Deployed Application</a></li>
+                            <li><a class="github-repo" href="https://github.com/josevidmal/u6-hw-server-side-api-weather-dashboard">GitHub Repo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="app5-modal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2>Note Taker<span id="app5-close" class="close-btn">&times;</span></h2>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            This is a Node.js application that allows users to write notes, save them, review them and also delete them.
+                            It uses Express.js to create an API, which allows the client to GET the notes saved in a .json file, 
+                            POST a new note to this file or DELETE a note from it (all this being relfected in the front-end of the 
+                            appication).
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <ul>
+                            <li><a class="deployed-app" href="https://jv-notetaker-app.herokuapp.com/">Deployed Application</a></li>
+                            <li><a class="github-repo" href="https://github.com/josevidmal/u11-hw-express.js-note-taker">GitHub Repo</a></li>
+                        </ul>
+                    </div>
                 </div>
             </section>
         </main>
@@ -99,6 +199,6 @@
                 </ul>
             </nav>
         </footer>
-
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
