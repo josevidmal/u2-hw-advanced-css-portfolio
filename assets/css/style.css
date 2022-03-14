@@ -323,6 +323,7 @@ header h1 {
     padding: 10px 16px;
     background-color: var(--grisoscuro);
     color: white;
+    text-align: center;
 }
 
 .modal-body {
@@ -545,6 +546,10 @@ header h1 {
     #footer-links li {
         display: block;
         border: none;
+    }
+
+    .modal-content {
+        width: 90%;
     }
 
 }
