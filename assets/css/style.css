@@ -73,7 +73,7 @@ header h1 {
 #about-me {
     background-color: white;
     width: 100vw;
-    height: 17em;
+    height: 20em;
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-between;
@@ -341,6 +341,10 @@ header h1 {
     list-style: inside;
 }
 
+.modal-footer .technologies {
+    list-style: none;
+}
+
 .deployed-app:link, .deployed-app:visited, .deployed-app:active,
 .github-repo:link, .github-repo:visited, .github-repo:active {
     color: white;
@@ -402,7 +406,7 @@ header h1 {
     }
 
     #about-me {
-        height: 24em;
+        height: 26em;
     }
 
     #principal-app {
@@ -430,7 +434,7 @@ header h1 {
     }
 
     #about-me {
-        height: 25em;
+        height: 27em;
     }
 
 }
@@ -438,7 +442,7 @@ header h1 {
 @media screen and (max-width: 890px) {
 
     #about-me {
-        height: 30em;
+        height: 32em;
     }
 
 }
@@ -478,7 +482,7 @@ header h1 {
     }
 
     #about-me {
-        height: 32em;
+        height: 33em;
         margin-bottom: 5%;
     }
 
@@ -557,7 +561,7 @@ header h1 {
 @media screen and (max-width: 600px){
 
     #about-me {
-        height: 35em;
+        height: 38em;
     }
 
 }
@@ -569,7 +573,7 @@ header h1 {
     }
 
     #about-me {
-        height: 42em;
+        height: 45em;
     }
 
 }
@@ -577,7 +581,7 @@ header h1 {
 @media screen and (max-width: 425px){
 
     #about-me {
-        height: 49em;
+        height: 51em;
     }
 
 }
@@ -585,7 +589,7 @@ header h1 {
 @media screen and (max-width: 375px){
 
     #about-me {
-        height: 55em;
+        height: 60em;
     }
 
 }
@@ -593,7 +597,7 @@ header h1 {
 @media screen and (max-width: 310px){
 
     #about-me {
-        height: 63em;
+        height: 64em;
     }
 
 }
