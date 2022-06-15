@@ -138,8 +138,8 @@ header h1 {
     align-items: center;
 }
 
-#tech-blog {
-    background-image: url("../images/mvc-tech-blog-1.png");
+#broken-pallets {
+    background-image: url("../images/broken-pallets-1.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 100%;
@@ -152,8 +152,8 @@ header h1 {
     position: relative;
 }
 
-#safe-trip-planner {
-    background-image: url("../images/safe-trip-planner.png");
+#motorcycle-club {
+    background-image: url("../images/motorcycle-club-1.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 48%;
@@ -163,20 +163,6 @@ header h1 {
     justify-content: flex-start;
     align-items: flex-end;
     order: 3;
-    position: relative;
-}
-
-#note-taker {
-    background-image: url("../images/note-taker-2.png");
-    background-position: unset;
-    background-size: cover;
-    flex: 0 0 48%;
-    height: 21%;
-    border: solid 4px var(--azulclaro);
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    order: 5;
     position: relative;
 }
 
@@ -190,12 +176,26 @@ header h1 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+    order: 5;
+    position: relative;
+}
+
+#safe-trip-planner {
+    background-image: url("../images/safe-trip-planner.png");
+    background-position: unset;
+    background-size: cover;
+    flex: 0 0 48%;
+    height: 21%;
+    border: solid 4px var(--azulclaro);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
     order: 4;
     position: relative;
 }
 
-#motorcycle-club {
-    background-image: url("../images/motorcycle-club-1.png");
+#tech-blog {
+    background-image: url("../images/mvc-tech-blog-1.png");
     background-position: unset;
     background-size: cover;
     flex: 0 0 48%;
@@ -520,7 +520,7 @@ header h1 {
         gap: 4%;
     }
 
-    #weather-dashboard, #safe-trip-planner, #note-taker, #motorcycle-club, #tech-blog {
+    #weather-dashboard, #safe-trip-planner, #broken-pallets, #motorcycle-club, #tech-blog {
         width: 90%;
         flex: 0 0 70%;
         justify-content: flex-end;
